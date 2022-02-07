@@ -86,7 +86,7 @@ void autonomousBackYellowGoal() {
       Drivetrain.stop();
       wait(250, msec);
       FrontPincers.spinFor(forward, 300, degrees);
-      UpPincer.spinFor(forward, 450, degrees);
+      UpPincer.spinFor(forward, 350, degrees);
       changeVelocity(50);
       Drivetrain.driveFor(reverse, 55, inches);
       break;
